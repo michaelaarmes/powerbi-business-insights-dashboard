@@ -1,1 +1,20 @@
+# Power BI Business Insights Dashboard
+
+Executive-level Power BI dashboard designed to surface revenue performance, growth dynamics, and concentration risk in a retail banking context using synthetic sample data.
+
+## What’s Included
+- **Executive Summary (PDF):** `docs/Michael_Armes_PowerBI_Business_Insights_Sample.pdf`
+- **Power BI File (PBIX):** `pbix/TD PBIX.pbix`
+
+## Key Features
+- Executive KPI layer (Revenue, Balance, New Accounts, Attrition, Net Account Growth)
+- Monthly trend view for performance monitoring
+- Revenue drivers by Product and Customer Segment
+- Revenue Mix (%) view for concentration risk
+- **Drill-through page** for product-level investigation (trend + segment mix + region mix)
+- Star schema modeling approach (dimension tables filtering fact tables)
+
+## How to View
+1. Open the PDF in the `docs/` folder for a business-first walkthrough
+2. Download the PBIX from the `pbix/` folder and open in Power BI Desktop
 “temp”
